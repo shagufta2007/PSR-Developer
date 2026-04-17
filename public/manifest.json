@@ -1,0 +1,24 @@
+{
+  "name": "PSR Developer",
+  "short_name": "Developer",
+  "description": "Premium High-End Development Portfolio by PSR Developer.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#A855F7",
+  "icons": [
+    {
+      "src": "/ing192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/img512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "orientation": "portrait"
+}
