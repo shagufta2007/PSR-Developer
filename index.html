@@ -1,32 +1,32 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#a855f7" />
-    <link rel="manifest" href="/manifest.json" />
-    <link rel="apple-touch-icon" href="https://picsum.photos/seed/psr/192/192" />
-    <title>PSR Developer Portfolio</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-    <script>
-      // Clear old service workers and register new one
-      if ('serviceWorker' in navigator) {
-        window.addEventListener('load', () => {
-          navigator.serviceWorker.register('/sw.js', { scope: '/' })
-            .then(registration => {
-              console.log('SW registered');
-              // Check for updates every time
-              if (registration.active) {
-                registration.update();
-              }
-            })
-            .catch(error => console.log('SW registration failed', error));
-        });
-      }
-    </script>
-  </body>
-</html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#a855f7" />
 
+  <!-- Primary SEO -->
+  <title> PSR Developer | Web Developer Portfolio & Projects</title>
+  <meta name="title" content="PSR Developer Portfolio - Web Developer & Projects Showcase" />
+  <meta name="description" content="PSR Developer Portfolio showcasing modern web development projects, React apps, UI/UX design, and full-stack skills. Hire a professional web developer today." />
+  <meta name="keywords" content="PSR Developer, web developer portfolio, React developer, frontend developer, full stack developer, JavaScript expert, UI UX designer, portfolio website" />
+  <meta name="author" content="PSR Developer" />
+
+  <!-- Open Graph (Facebook, LinkedIn) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://yourdomain.com/" />
+  <meta property="og:title" content="PSR Developer Portfolio" />
+  <meta property="og:description" content="Explore PSR Developer's portfolio featuring modern web apps, React projects, and creative UI designs." />
+  <meta property="og:image" content="/img512.png" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="PSR Developer Portfolio" />
+  <meta name="twitter:description" content="Modern web developer portfolio with React, UI/UX, and full-stack projects." />
+  <meta name="twitter:image" content="/img512.png" />
+
+  <!-- PWA -->
+  <link rel="manifest" href="/manifest.json" />
+  <link rel="apple-touch-icon" href="/ing192.png" />
+
+  <!-- Favicon (Logo in browser tab) -->
+  <link rel="icon" type="image/png" href="/logo.png" />
+</head>
