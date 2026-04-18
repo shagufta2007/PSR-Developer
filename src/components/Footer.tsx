@@ -3,11 +3,11 @@ import { Facebook, Linkedin, Instagram, Twitter, MessageSquare } from 'lucide-re
 
 export const Footer = () => {
   const socialMedia = [
-    { icon: <Facebook className="w-5 h-5" />, link: "#", name: "Facebook" },
-    { icon: <Linkedin className="w-5 h-5" />, link: "#", name: "LinkedIn" },
-    { icon: <Instagram className="w-5 h-5" />, link: "#", name: "Instagram" },
-    { icon: <Twitter className="w-5 h-5" />, link: "#", name: "Twitter" },
-    { icon: <MessageSquare className="w-5 h-5" />, link: "#", name: "Threads" },
+    { icon: <Facebook className="w-5 h-5" />, link: "https://www.facebook.com/PSRDeveloper", name: "Facebook" },
+    { icon: <Linkedin className="w-5 h-5" />, link: "https://www.linkedin.com/in/psr-developer-aa3b6a388/", name: "LinkedIn" },
+    { icon: <Instagram className="w-5 h-5" />, link: "https://www.instagram.com/psrdeveloper/", name: "Instagram" },
+    { icon: <Twitter className="w-5 h-5" />, link: "https://x.com/psrdeveloper", name: "Twitter" },
+    { icon: <MessageSquare className="w-5 h-5" />, link: "https://www.threads.com/@psrdeveloper?hl=en", name: "Threads" },
   ];
 
   return (
