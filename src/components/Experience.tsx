@@ -6,7 +6,7 @@ export const Experience = () => {
   const items = [
     {
       role: "Freelance Web Developer",
-      period: "2024 – Present",
+      period: "2022 – Present",
       desc: "Focusing on building revenue-driven websites for startups and small businesses. Managing end-to-end development from Figma to Deployment.",
       type: "Professional"
     },
