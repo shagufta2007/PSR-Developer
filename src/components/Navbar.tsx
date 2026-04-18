@@ -3,7 +3,7 @@ import { GlowingButton } from './GlowingButton';
 
 export const Navbar = () => {
   return (
-    <nav className="fixed top-0 left-0 w-full z-50 px-6 md:px-24 py-6 flex justify-between items-center bg-black/50 backdrop-blur-lg border-bottom border-white/5">
+    <nav className="fixed top-0 left-0 w-full z-50 px-6 md:px-24 py-5 flex justify-between items-center bg-black/60 backdrop-blur-md border-b border-white/10">
       <div 
         className="text-2xl font-heading font-black tracking-tighter interactive cursor-pointer" 
         onClick={() => {

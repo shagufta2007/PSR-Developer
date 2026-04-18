@@ -43,7 +43,7 @@ export default function App() {
 
       <CustomCursor />
       
-      <div className={loading ? 'hidden' : 'block'}>
+    <div className={`${loading ? 'opacity-0' : 'opacity-100'} transition-opacity duration-500`}>
         <Navbar />
         <Hero />
         <About />

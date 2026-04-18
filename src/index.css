@@ -1,5 +1,13 @@
-@import "tailwindcss";
+/* ✅ sab se upar */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* baqi css niche */
+@import "tailwindcss";
+
 
 @theme {
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
@@ -17,6 +25,8 @@
   
   body {
     background-color: #000;
+     margin: 0;
+  padding: 0;
     color: #fff;
     cursor: none;
     overflow-x: hidden;

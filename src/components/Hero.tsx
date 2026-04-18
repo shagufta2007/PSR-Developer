@@ -8,7 +8,7 @@ export const Hero = () => {
   const y = useTransform(scrollYProgress, [0, 1], [0, 500]);
 
   return (
-    <section id="hero" className="relative min-h-screen flex flex-col justify-center px-6 md:px-24 pt-0 overflow-hidden">
+   <section className="relative min-h-screen flex flex-col justify-center px-6 md:px-24 pt-24 overflow-hidden">
       {/* Background Gradients */}
       <div className="absolute top-[-10%] right-[-10%] w-[50vw] h-[50vw] bg-neon-purple/20 blur-[120px] rounded-full" />
       <div className="absolute bottom-[-10%] left-[-10%] w-[40vw] h-[40vw] bg-neon-cyan/10 blur-[120px] rounded-full" />
