@@ -62,7 +62,7 @@ export const Footer = () => {
 
       <div className="pt-8 border-t border-white/5 text-center">
         <div className="text-white/20 text-[10px] uppercase tracking-[0.4em]">
-          &copy; 2026 PSR DEVELOPER . ALL RIGHTS RESERVED . CRAFTED WITH PASSION
+          &copy; 2023 PSR DEVELOPER . ALL RIGHTS RESERVED . CRAFTED WITH PASSION
         </div>
       </div>
     </footer>
