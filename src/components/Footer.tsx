@@ -49,7 +49,8 @@ export const Footer = () => {
               <a 
                 key={i} 
                 href={social.link} 
-                className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-neon-purple hover:text-white transition-all text-white/40"
+                target="_blank"
+                className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-neon-purple hover:text-white transition-all text-white/40 "
                 aria-label={social.name}
               >
                 {social.icon}
