@@ -9,7 +9,7 @@ export const FinalCTA = () => {
       <motion.h2 
         initial={{ scale: 0.9 }}
         whileInView={{ scale: 1 }}
-        className="text-4xl md:text-7xl font-bold font-heading relative z-10"
+        className="text-4xl md:text-6xl font-bold font-heading relative z-10"
       >
         Ready to Turn Your Idea Into a <br />
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-neon-purple to-neon-cyan">Profitable Website?</span>
