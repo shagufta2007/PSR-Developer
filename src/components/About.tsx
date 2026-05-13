@@ -4,8 +4,8 @@ import { SectionTitle } from './SectionTitle';
 
 export const About = () => {
   const stats = [
-    { label: "Client Projects", value: "6+" },
-    { label: "Design Concepts", value: "4+" },
+    { label: "Client Projects", value: "5+" },
+    { label: "Design Concepts", value: "5+" },
     { label: "Mobile Optimized", value: "100%" }
   ];
 
