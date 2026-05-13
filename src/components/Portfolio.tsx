@@ -13,18 +13,7 @@ interface Project {
 
 export const Portfolio = () => {
   const projects: Project[] = [
-    {
-      title: "Educatinal Website",
-      category: 'Real',
-      image: "/educatinalwebsite.png",
-    link :"https://al-manzoor-education-system-gogera.vercel.app/"
-    },
-    {
-      title: "Oceania Real Estate",
-      category: 'Real',
-    image: "/digitalzone.png",
-      link :"https://digital-zone-six.vercel.app/"
-    },
+   
      {
       title: "Hotel & Apartment Booking Platform",
       category: 'Real',
@@ -36,6 +25,30 @@ export const Portfolio = () => {
       category: 'Real',
       image: "/dataminds.png",
     link :"https://thedataminds.us/"
+    },
+     {
+      title: "Baker",
+      category: 'Real',
+      image: "/baker.png",
+    link :"https://themewagon.github.io/baker/"
+    },
+    {
+      title: "E-commerce website",
+      category: 'Real',
+    image: "/Ecomerance.png",
+      link :"https://www.hamme.com.pk/"
+    },
+     {
+      title: "Educatinal Website",
+      category: 'Real',
+      image: "/educatinalwebsite.png",
+    link :"https://al-manzoor-education-system-gogera.vercel.app/"
+    },
+    {
+      title: "Oceania Real Estate",
+      category: 'Real',
+    image: "/digitalzone.png",
+      link :"https://digital-zone-six.vercel.app/"
     },
     {
       title: "E-commerce UI Concept",
