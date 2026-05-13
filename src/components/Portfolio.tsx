@@ -26,12 +26,7 @@ export const Portfolio = () => {
       image: "/dataminds.png",
     link :"https://thedataminds.us/"
     },
-     {
-      title: "Baker",
-      category: 'Real',
-      image: "/baker.png",
-    link :"https://themewagon.github.io/baker/"
-    },
+    
     {
       title: "E-commerce website",
       category: 'Real',
@@ -49,6 +44,12 @@ export const Portfolio = () => {
       category: 'Real',
     image: "/digitalzone.png",
       link :"https://digital-zone-six.vercel.app/"
+    },
+     {
+      title: "Baker",
+      category: 'Concept',
+      image: "/baker.png",
+    link :"https://themewagon.github.io/baker/"
     },
     {
       title: "E-commerce UI Concept",
