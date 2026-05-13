@@ -14,7 +14,7 @@ interface Project {
 export const Portfolio = () => {
   const projects: Project[] = [
     {
-      title: "Lumina Scent Store",
+      title: "Educatinal Website",
       category: 'Real',
       image: "/educatinalwebsite.png",
     link :"https://al-manzoor-education-system-gogera.vercel.app/"
@@ -24,6 +24,18 @@ export const Portfolio = () => {
       category: 'Real',
     image: "/digitalzone.png",
       link :"https://digital-zone-six.vercel.app/"
+    },
+     {
+      title: "Hotel & Apartment Booking Platform",
+      category: 'Real',
+      image: "/swyftbooking.png",
+    link :"https://swyftbooking.com/"
+    },
+      {
+      title: "Dataminds - AI Solution, Software Development & Website Design Expert",
+      category: 'Real',
+      image: "/dataminds.png",
+    link :"https://thedataminds.us/"
     },
     {
       title: "E-commerce UI Concept",
